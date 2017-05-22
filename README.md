@@ -11,3 +11,4 @@ The other performance element I consider is in the calculation of the array elem
 
 * Rather than provide guard clauses within the product mappig of the prime numbers array, I make sure to include the original prime numbers array only after the calculation of the product of each integer in the erray.
 * The unit tests test tests for private methods. I normally wouldn't do this, but I feel it was necessary to make sure we have good coverage of the main logic.
+* My Gemfile contains a call to install the redis gem. The reason we need this to enable caching. Unfortunately, I ran out of time before I could enable caching, so these reference can either be removed and I will add them again when they are needed.   
