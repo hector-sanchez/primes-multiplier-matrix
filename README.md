@@ -17,6 +17,8 @@ To determine whether a number is a prime or not I use the fact that the primes o
 
 ## Testing
 
+I test the generation of the primes array from the first prime (by not providing a start number) number until n, the generation of the prime numbers array from a start number until n, and the result of performing the prime array multiplication. 
+
 > rspec
 
 ## Other Notes
